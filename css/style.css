@@ -14,14 +14,14 @@ header{
 
 main{
     width: calc(100% - 40px);
-    background-color: red;
+    background-color: #141922;
     height: calc(100vh - 80px);
 }
 
 footer{
     width: 100%;
     height: 80px;
-    background-color: aqua;
+    background-color: #282828;
 }
 /*UTILITIES*/
 
@@ -50,7 +50,7 @@ footer{
 /*SECTION CLASSES*/
 nav{
     height: 100%;
-    background-color: black;
+    background-color: #000000;
 }
 /*MEDIA QUERY*/
 
