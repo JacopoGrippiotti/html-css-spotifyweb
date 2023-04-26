@@ -60,9 +60,17 @@ section.cards{
 .card{
     width: calc((100% / 2) - 10px);
     background-color: red;
-    height: 100px;
+    height: 150px;
 }
 
+.cards h1,
+.cards h2{
+    color: white;
+}
+
+.cards h1{
+    font-size: 1.3rem;
+}
 /*HEADER*/
 nav{
     height: 100%;
@@ -116,14 +124,7 @@ section.main-nav{
 
 /*RECENTLY PLAYED*/
 
-.cards h1,
-.cards h2{
-    color: white;
-}
 
-.cards h1{
-    font-size: 1.3rem;
-}
 /*FOOTER*/
 footer{
     width: 100%;
@@ -153,10 +154,22 @@ footer{
     .main-nav{
         max-width: 450px;
     }
+
+    .card{
+        width: calc((100% / 4) - 10px);
+        background-color: red;
+        height: 150px;
+    }
 }
 
 @media screen and (min-width:992px) {
     .main-nav{
         max-width: none;
+    }
+
+    .card{
+        width: calc((100% / 6) - 10px);
+        background-color: red;
+        height: 150px;
     }
 }
