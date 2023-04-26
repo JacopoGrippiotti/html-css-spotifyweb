@@ -53,7 +53,6 @@ nav{
 
 header{
     width: 40px;
-    background-color: aquamarine;
     height: calc(100vh - 80px);
 }
 /*MAIN*/
@@ -92,7 +91,15 @@ footer{
 /*MEDIA QUERY*/
 
 @media screen and (min-width:576px) {
-    
+    header{
+        width: 200px;
+    }
+
+    main{
+        width: calc(100% - 200px);
+        background-color: #141922;
+        height: calc(100vh - 80px);
+    }
 }
 
 @media screen and (min-width:768px) {
