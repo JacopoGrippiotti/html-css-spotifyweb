@@ -12,3 +12,25 @@ header{
     height: calc(100vh - 130px);
 }
 
+/*UTILITIES*/
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justicy-between{
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
