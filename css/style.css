@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-}
 /*UTILITIES*/
+.card img{
+    width: 100%;
+}
 
 .flex{
     display: flex;
@@ -23,7 +23,7 @@ body{
     justify-content: center;
 }
 
-.justicy-between{
+.justify-between{
     justify-content: space-between;
 }
 
@@ -59,10 +59,22 @@ section.cards{
 
 .card{
     width: calc((100% / 2) - 10px);
-    background-color: red;
-    height: 150px;
 }
 
+.cards h3{
+    font-size: 0.80rem;
+    color: #76787d;
+}
+
+.cards h2{
+    font-size:0.90rem ;
+}
+
+.card h2,
+.card h3{
+    margin-top: 8px;
+    text-align: center;
+}
 .cards h1,
 .cards h2{
     color: white;
@@ -157,8 +169,6 @@ footer{
 
     .card{
         width: calc((100% / 4) - 10px);
-        background-color: red;
-        height: 150px;
     }
 }
 
@@ -169,7 +179,5 @@ footer{
 
     .card{
         width: calc((100% / 6) - 10px);
-        background-color: red;
-        height: 150px;
     }
 }
