@@ -95,11 +95,16 @@ section.cards{
 nav{
     height: 100%;
     background-color: #000000;
+    color: #76787d;
 }
 
 header{
     width: 40px;
     height: calc(100vh - 70px);
+}
+
+.playlist-nav{
+    display: none;
 }
 /*MAIN*/
 main{
@@ -168,6 +173,10 @@ footer{
 
     .main-nav{
         max-width: 324px;
+    }
+
+    .playlist-nav{
+        display:unset;
     }
 }
 
