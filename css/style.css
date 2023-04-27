@@ -7,6 +7,10 @@
 }
 
 /*UTILITIES*/
+.round-img{
+    border-radius: 50%;
+}
+
 .card img{
     width: 100%;
 }
