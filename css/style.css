@@ -236,7 +236,8 @@ button.upgrade{
 }
 section.upgrade{
     width: 100%;
-    height: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color:#080b12 ;
     position: fixed;
 }
@@ -246,7 +247,7 @@ section.upgrade{
 }
 
 .main-nav-container{
-    margin-top: 90px;
+    margin-top: 75px;
     width: 100%;
 }
 
