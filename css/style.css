@@ -124,10 +124,6 @@ header{
     height: calc(100vh - 70px);
 }
 
-.personal-nav{
-    margin-top: 30px;
-}
-
 .personal-nav li{
     margin-top: 7px;
 }
@@ -336,6 +332,10 @@ footer{
 
     nav{
         padding: 13px;
+    }
+
+    .personal-nav{
+        margin-top: 30px;
     }
 }
 
