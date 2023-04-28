@@ -302,7 +302,7 @@ footer{
 
 .footer-right i{
     margin-left: 10px;
-    font-size: 0.80rem;
+    font-size: 0.70rem;
 }
 
 .footer-left img{
@@ -315,16 +315,22 @@ footer>div{
 }
 
 .song-name{
-    margin-left: 5px;
+    margin-left: 10px;
     line-height: 0.70rem;
 }
 
-.song-icon{
-    padding-right: 70px;
+div.song-icon{
+    margin-left: 10px;
 }
 
 .song-name div{
-    font-size: 0.80rem;
+    font-size: 0.70rem;
+}
+
+.song-icon i{
+    font-size: 0.70rem;
+    margin-left: 10px;
+    margin-top: 2px;
 }
 
 .volume-bar{
@@ -409,14 +415,6 @@ footer>div{
         margin-left: 5px;
     }
 
-    .song-icon{
-        padding-right: 0;
-        margin-left: 30px;
-    }
-
-    .song-icon i{
-        margin-left: 8px;
-    }
 }
 
 @media screen and (min-width:768px) {
@@ -427,6 +425,18 @@ footer>div{
     .card{
         width: calc((100% / 4) - 10px);
     }
+
+    footer div.song-icon.column{
+        padding-right: 0px;
+        margin-left: 40px;
+        flex-direction: row;
+    }
+
+    .song-icon i{
+        margin-left: 13px;
+    }
+
+
 }
 
 @media screen and (min-width:992px) {
