@@ -294,6 +294,17 @@ footer{
     height: 70px;
     background-color: #282828;
 }
+
+.footer-left,
+.footer-right{
+    width: 200px;
+}
+
+footer div{
+    height: 100%;
+    background-color: aqua;
+}
+
 /*MEDIA QUERY*/
 
 @media screen and (min-width:576px) {
