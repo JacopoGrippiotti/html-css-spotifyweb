@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 /*UTILITIES*/
 .align-center{
     align-items: center;
@@ -50,6 +53,10 @@
 
 .justify-between{
     justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
 }
 
 .column{
@@ -300,9 +307,17 @@ footer{
     width: 200px;
 }
 
+.footer-center{
+    width: 30%;
+}
+
 .footer-right i{
     margin-left: 10px;
     font-size: 0.70rem;
+}
+
+.footer-right .volume-bar{
+    margin-left: 4px;
 }
 
 .footer-left img{
@@ -324,7 +339,7 @@ div.song-icon{
 }
 
 .song-name div{
-    font-size: 0.70rem;
+    font-size: 0.60rem;
 }
 
 .song-icon i{
@@ -335,17 +350,30 @@ div.song-icon{
 
 .volume-bar{
     width: 57%;
-    border: 2px solid #5a5a5a ;
+    border: 1px solid #9e9595 ;
     border-radius: 8px;
-    margin-left: 7px;
+    margin-left: 0px;
+    background-color:#5a5a5a ;
 }
 
 .volume-level{
     width: 20%;
     border-radius: 8px;
-    border:2px solid #c1c1c1;
+    border:1px solid #c1c1c1;
 }
 
+div.song-command i{
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+div.song-command .volume-bar{
+    width: 100%;
+}
+
+div.song-command i:first-child{
+    margin-left: 0;
+}
 /*MEDIA QUERY*/
 
 @media screen and (min-width:576px) {
