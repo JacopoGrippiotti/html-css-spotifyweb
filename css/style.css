@@ -238,18 +238,18 @@ main{
 }
 .upgrade div{
     border: 1px solid white;
-    padding: 13px 25px;
+    padding: 10px 25px;
     background-color: #080b12;
     color: white;
-    font-size: 0.80rem;
+    font-size: 0.70rem;
     text-transform: uppercase;
     border-radius: 30px;
-    margin-right: 200px;
+    margin-right: 42px;
 }
 section.upgrade{
     width: 100%;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color:#080b12 ;
     position: fixed;
     top: 0;
@@ -352,6 +352,10 @@ footer{
 
     .personal-nav{
         margin-top: 30px;
+    }
+
+    .upgrade div{
+        margin-right: 202px;
     }
 }
 
