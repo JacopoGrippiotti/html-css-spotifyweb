@@ -300,9 +300,24 @@ footer{
     width: 200px;
 }
 
-footer div{
+.footer-left img{
+    width:15%;
+    margin-left: 5px;
+}
+
+footer>div{
     height: 100%;
     background-color: aqua;
+}
+
+.song-name{
+    margin-left: 5px;
+    padding-right: 100px;
+    line-height: 0.80rem;
+}
+
+.song-name div{
+    font-size: 0.80rem;
 }
 
 /*MEDIA QUERY*/
